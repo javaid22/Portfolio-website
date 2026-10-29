@@ -1,0 +1,1224 @@
+Act as a senior UI/UX designer, senior Bootstrap 5 front-end developer, personal branding specialist, and conversion-focused web designer. Build a complete, polished, professional, fully responsive digital CV and developer portfolio website for **Javaid Habib Dev**, using the uploaded reference image as the primary visual design inspiration.
+
+The goal is to create a premium personal developer portfolio that communicates technical expertise, showcases real development projects, highlights professional skills, and encourages potential employers, recruiters, agencies, and clients to contact me for employment, freelance work, or collaboration.
+
+IMPORTANT: Study the entire uploaded reference image before implementing the website. Pay attention to its dark navy background, warm amber-orange accents, glowing circular shapes, professional portrait composition, compact navigation, rounded dark cards, technical skill logos, project thumbnails, testimonial cards, contact form, and multi-column footer.
+
+Reproduce the overall design quality and visual direction, but create an original personal brand for Javaid Habib Dev. Do not copy the reference's name, logo, exact wording, or identity.
+
+# 1. WEBSITE CONFIGURATION
+
+Business type: Personal Developer Portfolio / Digital CV Landing Page
+
+Brand name: Javaid Habib Dev
+
+Owner name: Javaid Habib
+
+Professional title: WordPress Developer | PHP Developer | Full-Stack Web Developer
+
+Professional summary:
+"I build modern, responsive, and reliable digital experiences that help businesses establish their online presence, improve workflows, and grow with confidence."
+
+Professional background:
+- WordPress development.
+- WooCommerce development.
+- Shopify development.
+- PHP web development.
+- Laravel development.
+- React development.
+- Responsive HTML5, CSS3, JavaScript, and Bootstrap 5.
+- Website optimization, maintenance, and troubleshooting.
+- API integration and practical business-focused web solutions.
+
+Important experience requirement:
+I have multiple years of website development experience, but the exact total has not been provided. Make the experience number a single, easy-to-edit configuration value in the source code. Display a professional label such as "Years of Experience" and never invent a specific number of years. If the value is not configured, display "Experienced Developer" rather than a fabricated metric.
+
+Main goal:
+Create a digital CV that acts as my online professional identity, helps recruiters understand my skills quickly, showcases my development work, and generates qualified project inquiries.
+
+Target audience:
+- Software companies and technology teams.
+- Recruiters and hiring managers.
+- Businesses seeking WordPress, WooCommerce, Shopify, PHP, or Laravel developers.
+- Agencies looking for a reliable freelance development partner.
+- Startups needing website development and ongoing technical support.
+- International clients looking for remote developers.
+
+Required sections:
+1. Header and navigation.
+2. Hero section with professional introduction.
+3. Social links and professional CTAs.
+4. About me and professional statistics.
+5. Services.
+6. Technology stack.
+7. Featured projects.
+8. Professional testimonials.
+9. Contact section with a working front-end form.
+10. Professional footer with navigation and social links.
+
+Use realistic, editable professional copy throughout the website.
+
+# 2. STRICT TECHNOLOGY REQUIREMENTS
+
+Build this project as a static HTML5 website using Bootstrap 5 and vanilla JavaScript.
+
+MANDATORY TECHNOLOGIES:
+- HTML5.
+- Bootstrap 5.
+- CSS3.
+- Vanilla JavaScript.
+- Bootstrap Icons or Font Awesome Free.
+- Google Fonts, if available.
+- CSS custom properties.
+- IntersectionObserver for lightweight scroll animations.
+
+DO NOT USE:
+- React.
+- Next.js.
+- Vue.
+- Angular.
+- Svelte.
+- Tailwind CSS.
+- jQuery.
+- PHP or Laravel for this deliverable.
+- Node.js frameworks.
+- TypeScript.
+- JSX.
+- Vite.
+- Any build system or application framework.
+
+Do not create a backend or database. This is a static website project.
+
+The site must be easy to run locally by opening index.html in a modern browser, subject to the availability of external CDN resources.
+
+Preferred project structure:
+
+javaid-habib-dev/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── assets/
+    ├── images/
+    │   ├── javaid-habib-portrait.webp
+    │   ├── project-wordpress.webp
+    │   ├── project-ecommerce.webp
+    │   ├── project-laravel.webp
+    │   └── project-react.webp
+    └── icons/
+        └── favicon.svg
+
+If Google AI Studio supports file creation, create the actual files and image assets. If only a single-file output is possible, produce a complete, ready-to-run index.html with embedded CSS and JavaScript.
+
+# 3. OVERALL VISUAL DESIGN
+
+Use the uploaded reference as the visual direction for a premium dark developer portfolio.
+
+The design should communicate technical confidence, modern engineering, and professional reliability.
+
+Visual characteristics:
+- Deep navy and midnight-blue backgrounds.
+- Warm amber-orange highlights.
+- White and cool-gray typography.
+- Dark elevated cards with subtle borders.
+- Fine orange outlines and restrained glowing accents.
+- Circular geometric elements around the hero portrait.
+- Small technology icons and compact metadata.
+- Strong typography hierarchy.
+- Tight but breathable layout spacing.
+- Subtle depth through layered backgrounds and soft shadows.
+- Clean alignment and a consistent grid.
+- Premium technical aesthetic without excessive sci-fi styling.
+
+The final website should look like a carefully art-directed developer portfolio, not a generic Bootstrap template.
+
+Avoid bright multicolor gradients, oversized glassmorphism panels, excessive neon glow, excessive rounded pill shapes, and unnecessary decorative effects.
+
+# 4. COLOR PALETTE
+
+Use this consistent color system:
+
+- Main background: #0D1521
+- Secondary background: #111C2A
+- Card background: #172332
+- Elevated card background: #1B2939
+- Primary amber accent: #FFAD32
+- Accent hover: #F39217
+- Soft amber glow: rgba(255, 173, 50, 0.18)
+- Main heading text: #F4F6FA
+- Body text: #B7C0CD
+- Muted text: #8995A5
+- Borders: #293747
+- Accent border: rgba(255, 173, 50, 0.38)
+- Footer background: #0B121C
+- Pure white: #FFFFFF
+- Success indicator: #35C78A
+
+Define these colors as CSS custom properties in :root.
+
+Use amber strategically for important keywords, CTA buttons, section labels, icons, progress bars, borders, and decorative details.
+
+Keep the background dark and cohesive across the entire page. Differentiate sections using slight changes in navy shades, border separators, and controlled background treatments rather than large, unrelated color blocks.
+
+# 5. TYPOGRAPHY
+
+Use a modern sans-serif font such as Inter or Manrope.
+
+The typography should feel professional, clean, and suitable for a software engineer's CV.
+
+Suggested hierarchy:
+- Logo: 17–21px, semibold or bold.
+- Hero heading: 44–60px on desktop.
+- Section headings: 26–34px.
+- Card headings: 16–19px.
+- Body text: 13–15px with a line height around 1.6.
+- Eyebrow labels: 10–12px, uppercase, with letter spacing.
+- Button labels: 12–14px, semibold.
+- Project tags: 10–12px.
+- Metadata: 11–13px.
+
+Use clamp() for responsive font sizing.
+
+Highlight important hero heading phrases in amber while keeping the rest white.
+
+Keep text widths controlled so paragraphs remain easy to read. Avoid long, full-width text blocks.
+
+# 6. PAGE WIDTH AND GLOBAL SPACING
+
+Use Bootstrap 5's responsive containers and grid.
+
+Set the primary content width to approximately 1100–1200px on large screens.
+
+Use consistent section alignment and spacing:
+- Desktop horizontal padding: 32–48px.
+- Tablet horizontal padding: 24px.
+- Mobile horizontal padding: 16–20px.
+- Main section spacing: 48–72px vertically on desktop.
+- Mobile section spacing: 34–46px vertically.
+- Card radius: 9–13px.
+- Standard border width: 1px.
+- Subtle shadows instead of heavy shadows.
+- Consistent internal card padding.
+
+The overall page should feel compact and intentional, similar to the reference, while leaving enough space for comfortable reading.
+
+# 7. HEADER AND BRAND LOGO
+
+Build a professional horizontal header.
+
+Desktop layout:
+- Left: original Javaid Habib Dev logo.
+- Center/right: navigation.
+- Far right: amber CTA button.
+
+Navigation:
+- Home
+- About
+- Services
+- Skills
+- Projects
+- Testimonials
+- Contact
+
+Header behavior:
+- Use a centered Bootstrap container.
+- Maintain a compact header height of approximately 60–76px.
+- Keep the logo aligned with the navigation.
+- Use small, clear navigation labels.
+- Highlight the active section using an amber underline or subtle accent.
+- Use a restrained hover transition.
+- Optionally make the header sticky with a slightly opaque dark background and subtle bottom border.
+- Ensure the header never overlaps anchor destinations.
+
+Create an ORIGINAL logo for Javaid Habib Dev.
+
+Logo direction:
+- Create a geometric monogram combining the letters "J" and "H".
+- Use a simple angular, modern software-engineering aesthetic.
+- Use amber and white against the navy background.
+- Pair the monogram with the text "JAVAID HABIB".
+- Add a smaller subtitle "WEB DEVELOPER" or "SOFTWARE DEVELOPER".
+- Keep the logo compact and legible.
+- Do not imitate the reference logo or reproduce its lettermark.
+
+Implement the logo as an original inline SVG or clean CSS graphic with accessible text. Do not use an external image for the logo unless it is a genuinely custom-generated asset.
+
+Header CTA:
+"Let's Talk" with a small arrow icon.
+
+The CTA should scroll to the contact section.
+
+Mobile header:
+- Logo on the left.
+- Working hamburger menu on the right.
+- Collapsible Bootstrap navigation.
+- Accessible menu state and labels.
+- Properly spaced navigation links.
+- Close the mobile menu after a link is selected.
+
+# 8. HERO SECTION
+
+Create a strong, premium two-column hero section on the deep navy background.
+
+The composition should follow the reference's visual structure: text on the left, professional portrait on the right, amber geometric circle behind the portrait, and a floating experience card.
+
+Desktop layout:
+- Left column: approximately 50–55%.
+- Right column: approximately 45–50%.
+- Minimum hero visual height: approximately 360–440px.
+- Vertically center the left content.
+- Keep the header and hero visually connected.
+- Avoid unnecessary empty vertical space.
+
+## Left column content
+
+Small introductory badge:
+
+"Hello, I'm Javaid Habib 👋"
+
+Use a compact dark badge with a thin border and subtle background.
+
+Hero heading:
+
+"Building Scalable
+Web Solutions with
+Clean Code & Modern Tech."
+
+Use a strong modern sans-serif heading, with "Clean Code" or "Modern Tech" highlighted in amber.
+
+Ensure the heading remains visually balanced and does not overflow on smaller screens.
+
+Supporting paragraph:
+
+"I'm a web developer focused on building responsive websites, e-commerce experiences, and practical web applications using modern technologies. I turn business requirements into reliable, user-friendly digital solutions."
+
+Keep the paragraph width around 380–440px.
+
+Primary button:
+"View My Work" with a right-arrow icon.
+
+Behavior: scroll to the featured projects section.
+
+Secondary button:
+"Download CV" with a download icon.
+
+Behavior: point to a real CV file only if one is supplied. Otherwise, display a clearly configurable CV link and do not invent a downloadable file or use a broken URL. Keep the button's destination easy to configure in one location.
+
+Below the CTAs, add a compact row of social icons:
+- GitHub.
+- LinkedIn.
+- Email.
+- Optional portfolio or professional profile link.
+
+Use configurable destinations. Do not invent real profile URLs or link icons to "#". Omit any social link whose URL is not configured.
+
+Use accessible labels and subtle hover transitions.
+
+## Right column: professional portrait
+
+Generate or obtain a high-quality portrait suitable for a professional developer portfolio.
+
+Preferred image subject:
+A fictional South Asian male software developer in his late 20s or early 30s, with a professional, confident appearance, short dark hair, neatly maintained beard, and modern black or charcoal smart-casual clothing. Use natural, realistic features and a relaxed pose.
+
+Image style:
+- Photorealistic professional editorial portrait.
+- Subject looking slightly to the side, with a thoughtful, confident expression.
+- Dark charcoal clothing.
+- Soft cinematic studio lighting.
+- Deep navy and charcoal background.
+- Subtle amber rim lighting.
+- Chest-up or waist-up framing.
+- Natural skin texture.
+- Realistic proportions.
+- Premium professional photography.
+- No logos, watermarks, text, or artificial visual artifacts.
+
+The subject should occupy the right half of the hero and be large enough to establish a strong personal identity.
+
+Use object-fit: cover and appropriate object-position.
+
+Behind the portrait, create a large thin amber circle or partial orbital ring using CSS or SVG. Add a few small amber dots around the circumference.
+
+The circle should create a technical, engineered feeling without competing with the subject.
+
+Ensure the portrait blends naturally into the dark background using a suitable crop and, if needed, a subtle dark gradient near the lower edge.
+
+Do not force an opaque rectangular portrait background that clashes with the page.
+
+## Floating experience card
+
+Position a compact dark floating card near the right side of the portrait.
+
+Content:
+- A large amber-accented configurable experience value.
+- Label: "Years of Experience".
+- Small code or terminal icon.
+
+Style:
+- Dark navy card.
+- Thin amber-tinted border.
+- Rounded corners.
+- Soft shadow.
+- Subtle backdrop or glow.
+- Clear text hierarchy.
+
+On mobile, reposition the card so it does not overlap the heading, obscure the portrait, or cause horizontal overflow.
+
+# 9. ABOUT ME AND PROFESSIONAL STATISTICS
+
+Create a wide, dark card immediately below the hero, following the reference's combined profile and metrics panel.
+
+The card should visually connect to the hero while remaining distinct through a subtle border and slightly lighter navy background.
+
+Desktop layout:
+- Left profile information column: approximately 22%.
+- Middle biography column: approximately 42%.
+- Right statistics grid: approximately 36%.
+
+Use responsive Bootstrap columns.
+
+## Left column: personal information
+
+Display compact rows with amber line icons:
+
+Name:
+Javaid Habib
+
+Email:
+Use one configurable professional email address.
+
+Location:
+Available for Remote Opportunities
+
+Experience:
+Use the configurable experience value.
+
+Availability:
+Open to Relevant Opportunities
+
+Use small labels and slightly brighter values.
+
+Do not invent a physical location or phone number. Make contact information editable.
+
+## Middle column: biography
+
+Eyebrow:
+"ABOUT ME"
+
+Heading:
+"Developer Focused on Practical Solutions"
+
+Paragraph:
+
+"I'm Javaid Habib, a web developer who enjoys building websites and applications that solve real business problems. My work combines clean front-end interfaces with reliable back-end functionality, with a focus on usability, maintainability, and performance."
+
+Second paragraph:
+
+"From WordPress and e-commerce projects to PHP-based applications and modern JavaScript interfaces, I continue to expand my skills while focusing on solutions that deliver practical value."
+
+Add an outlined button:
+"More About Me" with a small arrow.
+
+The button may scroll to the services or contact section.
+
+## Right column: statistics
+
+Create a two-by-two statistics grid.
+
+Suggested metrics:
+- Projects Completed.
+- Client Collaborations.
+- Years of Experience.
+- Core Technologies.
+
+Important: Do not invent project counts, client counts, or experience numbers.
+
+Make all metrics configurable. If verified values are not provided, use honest non-numeric statements such as:
+- "Multiple" projects, only if supported by actual work.
+- "Client-Focused" approach.
+- "Professional" development experience.
+- "Full-Stack" technology focus.
+
+The design should retain the reference's balanced two-by-two metric layout without requiring fabricated numbers.
+
+Use fine separators between metric cells and large white values.
+
+On mobile, stack or use a two-column grid with sufficient spacing.
+
+# 10. SERVICES SECTION
+
+Add a centered section heading on the dark background.
+
+Eyebrow:
+"WHAT I DO"
+
+Heading:
+"Services I Offer"
+
+Supporting line:
+"Practical development services for businesses, teams, and growing digital products."
+
+Use a small amber accent line or decorative marker.
+
+Display four service cards in a responsive Bootstrap grid.
+
+Desktop: four columns.
+Tablet: two columns.
+Mobile: one column or two compact columns when legibility permits.
+
+## Service 1: WordPress Development
+
+Description:
+"Custom WordPress websites, theme customization, responsive layouts, and maintainable solutions built around business requirements."
+
+Icon: WordPress-related icon or a suitable code/browser icon.
+
+## Service 2: E-commerce Development
+
+Description:
+"WooCommerce and Shopify storefronts, product experiences, checkout improvements, and practical online store customization."
+
+Icon: shopping cart or store icon.
+
+## Service 3: PHP & Laravel Development
+
+Description:
+"Server-side functionality, database-driven applications, CRUD workflows, authentication, API integrations, and maintainable PHP solutions."
+
+Icon: server, database, or code icon.
+
+## Service 4: Front-End Development
+
+Description:
+"Responsive interfaces built with HTML5, CSS3, JavaScript, Bootstrap 5, and React-based projects where appropriate."
+
+Icon: browser, layout, or code icon.
+
+Each service card should include:
+- Amber line icon inside a small outlined square.
+- Clear title.
+- Concise description.
+- Subtle border.
+- Dark elevated background.
+- Consistent internal padding.
+- Equal heights where practical.
+- Soft hover border and slight upward movement.
+- Restrained amber glow on hover.
+
+Avoid excessive visual effects. Cards should look professional and cohesive.
+
+Include a small "Discuss This Service" link only if it has a meaningful contact-section destination.
+
+# 11. TECHNOLOGY STACK SECTION
+
+Create a compact, wide technology panel similar to the technology-logo strip in the reference.
+
+Eyebrow:
+"MY TECH STACK"
+
+Heading:
+"Technologies I Work With"
+
+Create a single horizontal bordered panel on desktop with technology icons and short labels.
+
+Include relevant technologies:
+- HTML5.
+- CSS3.
+- JavaScript.
+- Bootstrap 5.
+- WordPress.
+- WooCommerce.
+- Shopify.
+- PHP.
+- Laravel.
+- React.
+- MySQL.
+- Git.
+
+Use recognizable official or open-source technology icons from a reliable icon library or SVG assets.
+
+Important:
+- Do not use emojis as substitutes for technology logos.
+- Do not display broken logo images.
+- Do not claim expertise in technologies that are not appropriate for my current skill level.
+- Make the technology list easy to edit.
+- Use consistent icon sizing and label alignment.
+- Keep icons in their natural brand colors only where they remain visually balanced against the dark background.
+- Otherwise use a consistent muted-light icon style with amber highlights.
+
+Desktop:
+Display all technologies in a clean horizontal row, wrapping into additional rows only if required.
+
+Tablet:
+Use a flexible grid of three to four items per row.
+
+Mobile:
+Use a two- or three-column grid with consistent gaps.
+
+Add subtle hover behavior that brightens the icon and label.
+
+Do not create a constantly scrolling marquee. Prioritize readability and usability.
+
+# 12. FEATURED PROJECTS SECTION
+
+Create a visually rich featured projects section.
+
+Top heading row:
+- Left: eyebrow "MY WORK" and heading "Featured Projects".
+- Right: outlined "View All Projects" button.
+
+Display four project cards on desktop using a responsive Bootstrap grid. Three cards are acceptable if only three distinct project images can be generated, but aim for four distinct projects.
+
+Use real portfolio projects supplied below where relevant, with fictional concept projects clearly identified as concepts.
+
+## Project 1: WordPress / WooCommerce
+
+Title:
+"PartsForVolvos Online"
+
+Category:
+"E-commerce Development"
+
+Website:
+https://www.partsforvolvosonline.com/
+
+Description:
+"An e-commerce experience focused on product discovery, structured catalog navigation, and an online shopping workflow."
+
+Use the supplied URL as the project destination.
+
+## Project 2: WooCommerce Product Experience
+
+Title:
+"WasteMove Product Experience"
+
+Category:
+"WooCommerce"
+
+Website:
+https://wastemove.uk/product/360l-bin-collection/
+
+Description:
+"A product-focused WooCommerce experience designed to present service information clearly and guide customers toward a purchase."
+
+Use the supplied URL as the project destination.
+
+## Project 3: E-commerce Store
+
+Title:
+"Mukth Ayurveda"
+
+Category:
+"E-commerce Development"
+
+Website:
+https://mukthaayurveda.com/shop/
+
+Description:
+"An online store experience centered on product presentation, navigation, and a straightforward shopping journey."
+
+Use the supplied URL as the project destination.
+
+## Project 4: Laravel Business Application Concept
+
+Title:
+"Business Management Dashboard"
+
+Category:
+"PHP / Laravel"
+
+Description:
+"A concept application demonstrating structured business data, management workflows, dashboards, and API-driven functionality."
+
+Clearly mark this as a concept project unless a real public project URL is configured.
+
+If another real project is supplied later, it should be easy to replace this concept.
+
+## Project card layout
+
+Each project card must include:
+- A high-quality relevant project screenshot or mockup.
+- Project title.
+- Category.
+- One- or two-line description.
+- Technology tags.
+- Small external-link icon or case-study action.
+
+Suggested tags:
+- WordPress.
+- WooCommerce.
+- PHP.
+- Laravel.
+- JavaScript.
+- MySQL.
+- Responsive Design.
+
+Use tags only when appropriate to the specific project.
+
+## Project image requirements
+
+Generate or obtain distinct, professional images:
+
+1. An e-commerce storefront mockup with a clean product grid and modern retail design.
+2. A product or service page mockup with clear pricing or product information.
+3. A refined lifestyle or wellness e-commerce interface.
+4. A dark business-management dashboard concept with charts, tables, and metrics.
+
+The images should resemble professionally captured website screenshots rather than abstract decorative pictures.
+
+Requirements:
+- Keep project image ratios consistent.
+- Use object-fit: cover.
+- Prevent essential content from being cropped.
+- Add a subtle hover zoom.
+- Avoid empty image containers.
+- Never reuse the same image for different projects.
+- Do not fabricate customer results, revenue figures, or performance improvements.
+- Do not claim the projects were developed entirely by me unless that is established.
+- Keep all project URLs configurable.
+- Open external project links in a new tab with rel="noopener noreferrer".
+
+Do not embed false customer ratings or unverifiable success metrics inside project images.
+
+# 13. TESTIMONIALS SECTION
+
+Create a compact testimonial section inspired by the reference's dark cards with amber quotation marks.
+
+Eyebrow:
+"TESTIMONIALS"
+
+Heading:
+"What Clients Say"
+
+Use three cards on desktop and stack them on mobile.
+
+Each card should include:
+- Amber quotation mark.
+- Short testimonial text.
+- Small avatar.
+- Name.
+- Role or company descriptor.
+
+IMPORTANT: No verified testimonials have been provided. Do not fabricate genuine client reviews or present fictional endorsements as real. Instead, make the testimonial section a configurable content area and clearly identify any example testimonials in the source as sample content that must be replaced before publication.
+
+If no real testimonials are configured, use this section to display three professional value statements rather than fake client endorsements:
+
+Card 1:
+"Clear Communication"
+"Structured updates, practical explanations, and transparent project discussions."
+
+Card 2:
+"Quality-Focused Development"
+"Attention to responsive layouts, maintainable code, and dependable implementation."
+
+Card 3:
+"Business-Oriented Solutions"
+"A focus on understanding project requirements and building useful digital experiences."
+
+Label these as working principles rather than testimonials.
+
+Use a clean card design with a slightly lighter navy surface, subtle border, and balanced padding.
+
+Do not add carousel arrows or pagination controls unless a functioning carousel is implemented.
+
+# 14. CONTACT SECTION — HIGH-CONVERSION AREA
+
+Create a wide, bordered contact panel inspired by the reference's contact section.
+
+Use a dark navy background with a subtle amber glow or abstract network illustration on the right side.
+
+Desktop layout:
+- Left column: approximately 35%.
+- Middle column: approximately 40%.
+- Right decorative visual area: approximately 25%, where space permits.
+
+On tablet and mobile, stack the content and move the decorative illustration behind or below the form.
+
+## Left column
+
+Eyebrow:
+"GET IN TOUCH"
+
+Heading:
+"Let's Work Together"
+
+Paragraph:
+"Have a website project, an existing site that needs improvement, or an idea you'd like to bring to life? Tell me a little about it, and let's discuss the next steps."
+
+Display configurable contact information:
+- Email.
+- Optional phone.
+- Remote collaboration availability.
+
+Use amber outline icons.
+
+Do not invent phone numbers or personal addresses.
+
+## Middle column: contact form
+
+Create a well-designed, accessible HTML contact form containing:
+
+- Your Name.
+- Your Email.
+- Subject.
+- Project Type dropdown.
+- Your Message.
+- Submit button labeled "Send Message" with a paper-plane icon.
+
+Project Type options:
+- WordPress Development.
+- WooCommerce / Shopify.
+- PHP / Laravel Development.
+- Front-End Development.
+- Website Maintenance.
+- Other.
+
+Use Bootstrap form controls customized to match the dark theme.
+
+Form styling:
+- Dark input background.
+- Subtle border.
+- Light text.
+- Muted placeholders.
+- Amber focus border.
+- Clear validation messages.
+- Comfortable input spacing.
+
+Use appropriate HTML validation attributes such as required and type="email".
+
+The form is static, so do not falsely claim that a message was delivered to an inbox.
+
+Implement a front-end demonstration behavior:
+- Validate required fields.
+- Display a clear confirmation or next-step message.
+- If configured, prepare an email using a mailto link populated with the submitted information.
+- Clearly explain that actual email delivery requires a configured email service or backend.
+- Do not expose secrets or API keys.
+- Do not silently discard submitted content.
+
+The submit button must have a meaningful working front-end behavior even without a backend.
+
+## Right decorative illustration
+
+Create an original amber network globe or connected-node graphic using inline SVG or CSS.
+
+Visual details:
+- Large circular wireframe.
+- Thin curved connecting lines.
+- Small glowing amber nodes.
+- A few subtle particle points.
+- Soft radial glow behind the illustration.
+- Dark background integration.
+
+This should resemble a refined technology network, not a distracting animation.
+
+Use CSS or inline SVG rather than an external decorative image if practical.
+
+Keep the illustration non-interactive and mark it aria-hidden="true".
+
+# 15. FOOTER
+
+Build a professional, dark footer with a thin top border.
+
+Use five columns on wide screens, adapting to fewer columns on smaller devices.
+
+## Column 1: Brand
+
+Show the custom Javaid Habib Dev logo.
+
+Description:
+"Building useful digital experiences through thoughtful design and reliable web development."
+
+Add only configured social links.
+
+## Column 2: Quick Links
+
+- Home.
+- About.
+- Services.
+- Skills.
+- Projects.
+- Contact.
+
+Each link must point to an actual section ID.
+
+## Column 3: Services
+
+- WordPress Development.
+- E-commerce Development.
+- PHP / Laravel.
+- Front-End Development.
+
+Links should navigate to the services section.
+
+## Column 4: Connect
+
+- Email.
+- LinkedIn.
+- GitHub.
+- Optional professional social profile.
+
+Use real configured URLs only.
+
+## Column 5: Professional Updates
+
+Include a compact newsletter-style area only if it can perform a meaningful action.
+
+For a static website, either:
+- Provide a clearly labeled mailto-based subscription request, or
+- Omit the subscription field and use a "Get in Touch" CTA.
+
+Do not include a fake subscription form that silently pretends to subscribe users.
+
+Footer bottom row:
+- "© 2026 Javaid Habib Dev. All rights reserved."
+- "Designed and developed with care."
+
+Use small, muted typography.
+
+Add an optional back-to-top button with a working scroll-to-top interaction.
+
+# 16. BUTTON DESIGN SYSTEM
+
+Create a consistent set of buttons.
+
+## Primary button
+
+- Amber background: #FFAD32.
+- Dark navy or near-black text for strong contrast.
+- Semibold label.
+- Compact, balanced padding.
+- Small arrow icon.
+- Border radius around 6–8px.
+- Subtle hover brightness or darker amber.
+- Slight arrow movement on hover.
+- Clear focus-visible outline.
+
+## Secondary button
+
+- Transparent dark background.
+- Thin gray or amber-tinted border.
+- White text.
+- Small icon.
+- Amber border or text on hover.
+
+## Text links
+
+- Muted white text.
+- Amber hover color.
+- Smooth transition.
+- Underline where it improves clarity.
+
+Do not use oversized pill buttons.
+
+Ensure all interactive elements are accessible and have meaningful destinations or actions.
+
+# 17. BACKGROUND EFFECTS AND DEPTH
+
+Use CSS to create the premium technical atmosphere.
+
+Hero:
+- Deep navy background.
+- Subtle radial amber glow behind the portrait.
+- Thin amber orbital circle.
+- Small floating dots.
+- Optional faint radial-gradient texture.
+
+About:
+- Slightly elevated navy card.
+- Fine border.
+- Restrained shadow.
+
+Services:
+- Dark card surfaces.
+- Thin borders.
+- Amber line icons.
+
+Technology strip:
+- Wide horizontal bordered panel.
+- Dark background.
+- Small technology logos.
+
+Projects:
+- Consistent dark cards.
+- Clear thumbnail areas.
+- Subtle border and hover elevation.
+
+Contact:
+- Large dark panel.
+- Amber network globe illustration.
+- Subtle radial glow.
+
+Footer:
+- Deepest navy shade.
+- Fine horizontal separator.
+- Consistent typography.
+
+Keep glow effects subtle and performant. Avoid expensive filters on large elements and avoid excessive box-shadow stacking.
+
+# 18. ANIMATIONS AND MICRO-INTERACTIONS
+
+Implement restrained, professional motion using CSS and vanilla JavaScript.
+
+Required:
+1. Smooth scrolling for internal navigation.
+2. Sticky header background transition on scroll.
+3. Active navigation link highlighting.
+4. Subtle hero portrait fade-in.
+5. Small floating experience card entrance animation.
+6. Scroll-triggered fade-up animations for selected cards and sections.
+7. Staggered appearance of service and project cards.
+8. Skill or technology hover effects.
+9. Button arrow movement on hover.
+10. Project image zoom on hover.
+11. Contact form success or validation feedback.
+12. Functional mobile menu.
+13. Back-to-top behavior if included.
+
+Technical requirements:
+- Use IntersectionObserver for reveal animations.
+- Keep JavaScript minimal.
+- Do not introduce animation libraries.
+- Avoid continuous background motion.
+- Avoid excessive parallax.
+- Do not delay access to essential content.
+- Ensure content remains visible if JavaScript fails.
+- Respect prefers-reduced-motion: reduce.
+- Do not animate large amounts of text unnecessarily.
+
+# 19. RESPONSIVE BEHAVIOR
+
+The entire site must be fully responsive.
+
+## Large desktop: 1200px and above
+
+- Full horizontal navigation.
+- Two-column hero.
+- Large portrait and orbital graphic.
+- Three-column or four-column service grid.
+- Horizontal technology strip.
+- Three- or four-column projects grid.
+- Multi-column footer.
+
+## Tablet: 768px–1199px
+
+- Slightly smaller hero heading.
+- Balanced portrait and text proportions.
+- Reduce decorative circle size.
+- Use two-column service cards.
+- Allow technology icons to wrap.
+- Use two project columns when needed.
+- Reduce section padding.
+- Keep contact form readable.
+
+## Mobile: below 768px
+
+- Compact header with a working hamburger menu.
+- Hero text first, portrait below.
+- Appropriate heading size.
+- Buttons stack or wrap naturally.
+- Social icons remain accessible.
+- Experience card repositions safely.
+- About card stacks into readable sections.
+- Statistics remain legible.
+- Service cards stack or use two columns only where space permits.
+- Technology logos wrap into a grid.
+- Projects display in one column.
+- Testimonials or value cards stack.
+- Contact form uses full-width controls.
+- Decorative network illustration becomes smaller or moves below the form.
+- Footer columns stack vertically.
+- Adequate touch targets and readable spacing.
+- No horizontal overflow.
+
+## Very small screens: 320px–375px
+
+- Prevent oversized headings from clipping.
+- Ensure the logo and hamburger menu fit.
+- Prevent buttons from exceeding their container.
+- Allow email addresses and long labels to wrap safely.
+- Ensure images and cards do not exceed the viewport.
+- Keep all sections usable without horizontal scrolling.
+
+Use Bootstrap breakpoints, responsive utilities, flexible grids, and custom media queries. Do not merely shrink the desktop design.
+
+# 20. ACCESSIBILITY
+
+Use semantic HTML5:
+- header.
+- nav.
+- main.
+- section.
+- article.
+- form.
+- footer.
+
+Requirements:
+- One primary h1.
+- Logical heading hierarchy.
+- Meaningful image alt text.
+- Empty alt attributes for decorative imagery.
+- Accessible icon labels.
+- Keyboard-accessible navigation.
+- Visible focus styles.
+- Sufficient color contrast.
+- Proper form labels.
+- Correct input types.
+- Accessible validation and success messages.
+- Appropriate ARIA attributes.
+- Functional mobile navigation.
+- No clickable div elements where a button or anchor is appropriate.
+
+# 21. SEO AND PERFORMANCE
+
+Include:
+- Descriptive page title, such as "Javaid Habib | WordPress, PHP & Web Developer".
+- Meta description describing my development services.
+- Viewport meta tag.
+- Character encoding.
+- Theme color matching the navy palette.
+- Open Graph title and description.
+- Favicon using the original JH monogram.
+- Descriptive image alt text.
+- Appropriate section IDs.
+- Valid external links.
+- Sensible image dimensions and aspect ratios.
+
+Optimize performance:
+- Use Bootstrap 5 from a stable CDN.
+- Include the Bootstrap JavaScript bundle for the mobile navigation.
+- Use optimized WebP images where possible.
+- Lazy-load below-the-fold images.
+- Eager-load the hero portrait.
+- Avoid unnecessary JavaScript.
+- Avoid layout shifts.
+- Avoid unnecessary external dependencies.
+- Ensure the browser console has no errors.
+
+# 22. CONTENT AND CONFIGURATION
+
+Create a clearly documented configuration area in JavaScript or a clearly labeled HTML section containing editable values for:
+
+- Name: Javaid Habib.
+- Brand name: Javaid Habib Dev.
+- Professional title.
+- Experience years.
+- Email address.
+- Phone number, optional.
+- LinkedIn URL.
+- GitHub URL.
+- Other social links, optional.
+- CV file path, optional.
+- Project URLs.
+- Project titles and descriptions.
+- Technology list.
+- Verified statistics, optional.
+
+Use one source of truth for repeated information where practical.
+
+Do not fabricate:
+- Years of experience.
+- Number of completed projects.
+- Number of clients.
+- Revenue or conversion improvements.
+- Client endorsements.
+- Employment history.
+- Certifications.
+- Awards.
+- Personal contact details.
+- Social media profiles.
+
+Where data is not supplied, use editable content or omit the relevant metric.
+
+# 23. IMAGE GENERATION REQUIREMENTS
+
+Generate or retrieve the required high-quality assets where the available environment supports it.
+
+Required images:
+1. Professional developer portrait.
+2. WordPress or WooCommerce project mockup.
+3. E-commerce product page mockup.
+4. Lifestyle e-commerce mockup.
+5. Laravel business dashboard mockup.
+
+The portrait should match the dark, amber-accented design direction.
+
+Project screenshots should appear credible, crisp, modern, and relevant to the project descriptions.
+
+All images must:
+- Have the correct subject.
+- Be visually distinct.
+- Use a consistent art direction.
+- Avoid visible watermarks.
+- Avoid unrelated brand logos.
+- Avoid nonsensical text where possible.
+- Have appropriate aspect ratios.
+- Be optimized for web display.
+
+Prefer generated local assets if possible.
+
+If image generation is unavailable, use stable, reliable image URLs or available local assets. Never invent local image paths or leave broken images.
+
+Use CSS placeholders only for nonessential decorative elements, never as a replacement for the required portrait or featured project imagery.
+
+# 24. FINAL FUNCTIONALITY CHECKLIST
+
+Before finalizing, verify:
+
+- The website opens as a static HTML5 page.
+- Bootstrap 5 loads correctly.
+- The custom logo displays correctly.
+- The navigation links work.
+- The mobile menu opens and closes.
+- The hero CTA scrolls to projects.
+- The contact CTA scrolls to the form.
+- The CV button uses a configurable real file path.
+- Social links use configured destinations.
+- The about section is responsive.
+- Service cards align correctly.
+- Technology icons load.
+- Project images are distinct and load correctly.
+- Real project links work.
+- Concept projects are labeled honestly.
+- No fake testimonials are presented as real.
+- No fabricated metrics appear.
+- The contact form validates inputs.
+- The contact form communicates its static limitations.
+- No fake email delivery success is shown.
+- The footer links work.
+- The back-to-top button works if included.
+- No horizontal overflow occurs.
+- No broken images or empty image boxes remain.
+- No console errors occur.
+- Keyboard focus is visible.
+- Reduced-motion preferences are respected.
+- Essential content remains visible if JavaScript is disabled.
+
+# 25. FINAL DELIVERY INSTRUCTIONS
+
+Build the complete website, not just a mockup, design description, wireframe, or partial code sample.
+
+If file-generation capabilities are available, create:
+- index.html
+- css/style.css
+- js/script.js
+- assets/images/ with the actual generated or retrieved image files
+- assets/icons/favicon.svg
+
+If only one file can be generated, create a complete, self-contained index.html with embedded CSS and vanilla JavaScript.
+
+Use Bootstrap 5 only for the layout framework. All custom visual styling must use CSS3, and all interactions must use vanilla JavaScript.
+
+Keep the code readable, organized, and properly commented. Include practical instructions in the code comments explaining where to update the email, social links, experience value, CV path, project information, and other personal details.
+
+Do not ask follow-up questions. Use the information already provided and reasonable, editable defaults.
+
+The final result must be a premium, modern, responsive developer digital CV that follows the reference's dark navy and amber visual direction while establishing an original Javaid Habib Dev identity.
+
+The finished website should be suitable for showcasing to recruiters, applying for developer jobs, sharing on LinkedIn, and presenting to potential freelance clients.
+
+Prioritize excellent visual composition, professional branding, realistic imagery, clean Bootstrap 5 implementation, functional navigation, honest portfolio content, responsive behavior, and clear conversion-focused calls to action.
+
+Deliver the actual working static website and its files wherever supported, with no React, no additional frameworks, no unfinished sections, no fake claims, no broken links, and no placeholder image boxes.
